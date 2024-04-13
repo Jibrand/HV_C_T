@@ -1,0 +1,313 @@
+.speak {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 60px;
+  bottom: 0px;
+  transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transform: translateZ(0);
+  padding: 140px 40px;
+  z-index: 999;
+}
+
+.video-cutter {
+  overflow: hidden;
+  border-radius: 100%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.speak video {
+  transform: scale(1.4);
+  width: 100px;
+}
+
+.speak:hover {
+  transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  z-index: 999;
+}
+
+.speak img {
+  width: 100%;
+}
+
+.sup-rota {
+  position: absolute;
+  top: 107px;
+  left: 5px;
+  width: 165px;
+  height: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotating 10s linear reverse infinite;
+  -moz-animation: rotating 10s linear reverse infinite;
+  -webkit-animation: rotating 10s linear reverse infinite;
+  z-index: -1;
+}
+
+.sup-rota img {
+  width: 145px;
+  transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  -webkit-transform: scale(0.6);
+  transition-duration: 0.3s;
+  opacity: 0;
+}
+
+.speak:hover .sup-rota img {
+  opacity: 1;
+  transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+.sup-icons-cont {
+  position: absolute;
+  width: 32px;
+  height: 70px;
+  top: -120px;
+  left: 62px;
+  opacity: 0;
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.speak:hover .sup-icons-cont {
+  top: -253px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sup-icon {
+  width: 50px;
+  position: relative;
+  z-index: 10;
+  transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  padding-bottom: 0px;
+  cursor: pointer;
+  transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+.speak:hover .sup-icon {
+  padding-bottom: 12px;
+}
+
+.sup-icon:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.sup-icons img {
+  width: 100%;
+}
+
+@-webkit-keyframes rotating
+        /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 1679px) {
+  .speak video {
+    width: 70px;
+  }
+  .video-cutter {
+    width: 70px;
+    height: 70px;
+  }
+  .sup-rota img {
+    width: 105px;
+  }
+  .speak {
+    right: 30px;
+    bottom: -50px;
+  }
+  .sup-rota {
+    top: 90px;
+    left: -9px;
+    width: 169px;
+    height: 169px;
+  }
+  .sup-icon {
+    width: 40px;
+  }
+  .speak:hover .sup-icons-cont {
+    top: -183px !important;
+  }
+  .sup-icons-cont {
+    left: 54px;
+  }
+}
+.sup-icons-cont ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.sup-icons-cont ul li {
+  width: 40px;
+  height: 40px;
+  background-color: #ff0000;
+  margin-bottom: 12px;
+  color: #fff !important;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sup-icons-cont ul li a {
+  color: #fff !important;
+  font-size: 20px;
+}
+
+.social-menu--landing a {
+  font-size: 25px;
+  line-height: 1;
+  color: #222430;
+}
+
+.social-menu--landing-glitch .glitch-layer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.social-menu--landing li a i {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.social-menu--landing .social-menu__icon {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: 400;
+  will-change: transform;
+}
+
+.social-menu--landing .social-menu__link[href*="facebook.com"] .social-menu__icon::before {
+  content: "\f09a";
+  font-family: "Font Awesome 5 Brands";
+}
+
+.social-menu--landing-glitch .glitch-layer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.social-menu--landing-glitch .glitch-layer--1 {
+  color: #f0f;
+  z-index: -2;
+  opacity: 0.8;
+}
+
+.social-menu--landing-glitch .glitch-layer--2 {
+  color: #0ff;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.social-menu--landing-glitch li a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.social-menu--landing-glitch li a:hover .glitch-layer--1 {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+
+.social-menu--landing-glitch li a:hover .glitch-layer--2 {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-3px, 3px);
+  }
+  40% {
+    transform: translate(-3px, -3px);
+  }
+  60% {
+    transform: translate(3px, 3px);
+  }
+  80% {
+    transform: translate(3px, -3px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.social-menu--landing-glitch .glitch-layer.fa-instagram {
+  left: -10px;
+  top: -12px;
+}
+.social-menu--landing-glitch .glitch-layer.fa-youtube {
+  left: -14px;
+  top: -12px;
+}
+.social-menu--landing-glitch .glitch-layer.fa-reddit-alien {
+  left: -12px;
+  top: -13px;
+}
+.social-menu--landing-glitch .glitch-layer.fa-twitch {
+  left: -12px;
+  top: -11px;
+}
+.social-menu--landing-glitch .glitch-layer.fa-discord {
+  left: -15px;
+  top: -14px;
+}
+.social-menu--landing-glitch .glitch-layer.fa-pinterest-p {
+  left: -9px;
+  top: -13px;
+}
+
+/*# sourceMappingURL=orb.css.map */

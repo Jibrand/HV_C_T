@@ -1,0 +1,180 @@
+.logo{margin-top:94px;width:100%;text-align:center;display:flex;justify-content:center;align-items:center}.logo img{width:280px;outline:0}.bnr-sec{display:flex;height:100%;flex-wrap:wrap;align-items:flex-start}.demos-btn{border:.5px solid rgba(255,255,255,.06);background:radial-gradient(311.53% 50.66% at 50% 50%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%),rgba(255,255,255,.02);box-shadow:0px 2px 12px 0px rgba(255,255,255,.04) inset;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);padding:8px 20px;border-radius:50px;margin-left:auto;margin-right:auto;margin-bottom:40px;font-size:14px;display:flex;align-items:center;justify-content:center}.demos-btn .txt{margin-left:8px}
+.banner-top
+{
+    min-height:100vh;background:url(../img/banner-bg.svg) no-repeat center center;background-size:cover;display:flex;flex-wrap:wrap}
+
+.banner-top .caption-area{display:flex;align-items:flex-start;flex-direction:column;justify-content:center;padding-bottom:280px;height:100%;width:100%;color:#fff}@media screen and (max-width: 1679px){.banner-top .caption-area{padding-bottom:260px}}@media screen and (max-width: 1199px){.banner-top .caption-area{padding-bottom:0}}.banner-top .caption-area .title-tp{color:#fff;font-size:55px;line-height:57px;font-weight:500;margin-bottom:50px}.banner-top .caption-area p{font-size:19px;line-height:35px;font-weight:400;margin-bottom:30px;max-width:800px;margin-left:auto;color:#5c6672;margin-right:auto}.banner-top .caption-area .lr-more{color:#000;font-size:19px;line-height:23px;text-decoration:none;background-color:#a0ff00;border-radius:6px;min-width:297px;height:54px;display:inline-flex;align-items:center;justify-content:center;position:relative;z-index:99;font-weight:bold;transition:.2s ease-out all}.banner-top .caption-area .lr-more:hover{background-color:#74b800}.banner-top .img-area{display:flex;align-items:flex-start;flex-direction:column;justify-content:center;margin-top:-154px;height:100%;max-width:50%}@media(max-width: 991px){.banner-top .img-area{max-width:45%}}@media(max-width: 767px){.banner-top .img-area{max-width:100%;margin-top:0px}}.banner-top .img-area img{max-width:100%}.scroll-down{opacity:1;transition:all .5s ease-in 3s}.scroll-down{position:absolute;overflow:hidden;bottom:60px;left:50%;margin-left:-16px;display:block;width:35px;height:50px;border:2px solid #fff;background-size:14px auto;border-radius:23px;z-index:2;animation:bounce 2s infinite 2s;transition:all .2s ease-in;transform:scale(1)}.scroll-down:before{position:absolute;top:calc(50% - 0px);left:calc(50% - 6px);transform:rotate(-45deg);display:block;width:12px;height:12px;top:16px;content:"";border:2px solid #fff;border-width:0px 0 2px 2px;transition:all .2s ease-in}.scroll-down:after{content:"";width:2px;height:17px;background-color:#fff;position:absolute;left:calc(50% - .2px);top:12px;transition:all .2s ease-in}@keyframes bounce{0%,100%,20%,50%,80%{transform:translateY(0)}40%{transform:translateY(-10px)}60%{transform:translateY(-5px)}}@media(max-width: 1679px){.logo{margin-top:74px}.banner-top .caption-area .title-tp{color:#fff;font-size:40px;line-height:45px}.banner-top .caption-area .lr-more{font-size:16px}.scroll-down{width:32px;height:44px;border-width:1px}.scroll-down:before{border-width:1px;border-width:0px 0 1px 1px}.scroll-down:after{width:1px;left:calc(50% + .8px)}.banner-top .caption-area .title-tp{margin-bottom:40px}.logo img{width:250px}.banner-top .caption-area p{font-size:16px;line-height:30px}.banner-top .caption-area .lr-more{min-width:240px;height:40px;font-size:14px}}@media(max-width: 1199px){.logo{margin-bottom:0px}.banner-top{min-height:auto;padding-bottom:60px}.banner-top .caption-area{margin-top:0px}.scroll-down{display:none}}@media(max-width: 1023px){.banner-top{min-height:auto}}@media(max-width: 991px){.logo{margin-top:20px}.logo{margin-bottom:0}.banner-top .caption-area{margin-top:20px}}@media(max-width: 767px){.logo img{width:200px}.logo{margin-top:40px}.banner-top .caption-area p{font-size:14px;line-height:21px;margin-bottom:20px;text-shadow:3px 0px 2px #000}.banner-top .caption-area{max-width:100%;margin-top:20px}.banner-top .caption-area .title-tp{font-size:28px;line-height:1.2;margin-bottom:17px}}@media(max-width: 479px){.banner-top{background-size:cover;align-items:flex-start;padding-left:10px;padding-right:10px;padding-bottom:0}.banner-top .caption-area{margin-top:30px}.banner-top .caption-area .lr-more{min-width:200px}.banner-top .caption-area .title-tp{font-size:24px}}/*# sourceMappingURL=banner.css.map */
+
+
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .testimonial-box:hover {
+    cursor: pointer;
+ 
+  }
+.picbox {
+    /* Add your existing styles here */
+    transition: box-shadow 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .picbox:hover {
+    box-shadow: 0 0 30px 0 #a0ff00;
+    /* box-shadow: inset 0 0 10px 0 #a0ff00;  */
+    /* margin-top: -30px; */
+    
+    /* Apply box shadow on hover */
+  }
+
+  .picbox1 {
+    /* Add your existing styles here */
+    transition: box-shadow 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .picbox1:hover {
+    box-shadow: 0 0 10px 0 #a0ff00;
+    /* box-shadow: inset 0 0 10px 0 #a0ff00;  */
+    /* margin-top: -30px; */
+    
+    /* Apply box shadow on hover */
+  }
+  .hover-underline {
+    position: relative;
+    display: inline-block; /* or inline, depending on your use case */
+    cursor: pointer;
+}
+
+.hover-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* adjust this value to control the distance between text and underline */
+    width: 100%;
+    height: 3px; /* adjust this value to control the thickness of the underline */
+    background-color: transparent; /* default color of underline */
+    transition: background-color 0.3s ease; /* smooth transition for color change */
+    cursor: pointer;
+}
+
+.hover-underline:hover::after {
+    background-color: #a0ff00; /* change this to the desired color */
+}
+
+.hover-text-green:hover {
+    color: #a0ff00; /* Light green color */
+    transition: color 0.7s ease; /* Adding transition for smooth effect */
+}
+
+.hover-text-green:hover {
+    animation: changeBrightness 3s infinite alternate; /* Animation for changing brightness */
+}
+.demo-image {
+    /* border: #a0ff00 1px solid; */
+    box-shadow: #74b800 0px 0px 20px; /* Initial box shadow */
+    border-radius: 30px;
+    transition: box-shadow 0.5s ease; /* Smooth transition for box-shadow property */
+}
+
+.demo-image:hover {
+    cursor: pointer;
+    /* border: #a0ff00 1px solid; */
+    box-shadow: #74b800 0px 0px 50px; /* New box shadow on hover */
+}
+
+.let-joinus-button1 {
+    background-color: #A0FF00;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .let-joinus-button2 {
+    background-color: #233701;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .let-joinus-button1:hover {
+    background-color: #578704;
+    box-shadow: #375209  0 0px 60px ;
+    color: white;
+  }
+   .let-joinus-button2:hover {
+    background-color: #578704;
+    box-shadow: #375209  0 0px 60px ;
+  }
+  
+  /* Adjust SVG color */
+  svg {
+    fill: #fff;
+  }
+  
+  /* Adjust SVG position */
+  button svg {
+    margin-left: 5px;
+  }
+  
+
+
+@keyframes changeBrightness {
+    from {
+        filter: brightness(1); /* Start with normal brightness */
+    }
+    to {
+        filter: brightness(0.5); /* End with darker brightness */
+    }
+}
+
+@media (max-width: 767px) {
+    .hover-underline:hover::after {
+        background-color: transparent; /* Resetting underline color on hover for mobile */
+    }
+}
+
+
+
+
+.center{
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+/* Default styles */
+.sas {
+    width: 100%;
+  }
+  
+  /* Styles for screens larger than 768px */
+  @media (min-width: 768px) {
+    .sasas {
+      max-width: 768px;
+    }
+  }
+  
+  /* Styles for screens larger than 1024px */
+  @media (min-width: 1024px) {
+    .sasa {
+      max-width: 1024px;
+    }
+  }
+  
+  /* Additional styles specific for mobile devices */
+  @media (max-width: 767px) {
+     .ccc{
+        margin-top: -130px !important;
+     }
+     .hover-underline{
+
+     }
+  }
+  
