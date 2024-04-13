@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import CATEN8logo_onTrans from '../../img/new/CATEN8logo_onTrans3.png'
 import DenteonENDingLogo_stacked_outlines_blackChrome from '../../img/new/DenteonENDingLogo_stacked_outlines_blackChrome.png'
 import HV_HEIMDALLdata_vikingfire_chromeOutline from '../../img/new/HEIMDALLdata_vikingfire_chromeOutline2.png'
@@ -11,14 +10,8 @@ import SPYDERswooshbat_PurpleBlue_onBlackChrome from '../../img/new/SPYDERswoosh
 import HV_VIVAdere_CHROME from '../../img/new/HV_VIVAdere_CHROME.png'
 import HVbsideslogointro from '../../img/new/HV-bsides-logo-intro.png'
 import SAEPiologo_stickercut from '../../img/new/SAEPiologo_stickercut.png'
-import BLUMIRAwordonlyChrome from '../../img/new/BLUMIRAwordonlyChrome.png'
 import BLUMIRApocscreen from '../../img/new/SENTEONpocscreen.jpg'
-import demos from '../../img/demos-icon.svg'
 import HV_NEW_AI_Machine from '../../img/new/HV_NEW_AI_Machine_blues (1).png'
-import CRAIG from '../../img/new/CRAIG.jpg'
-import MARIANA from '../../img/new/MARIANA.jpg'
-import SPYDERswooshbat from '../../img/new/SPYDERswooshbat_PurpleBlue_onBlackChrome.png'
-import KeenSlider from 'keen-slider';
 import Index from './Teams'
 import Blogs from './Blogs'
 import Testimonials from './Testimonials'
@@ -42,6 +35,8 @@ import redorbtwitch from '../../img/redorb-twitch.png'
 import gif1 from '../../img/new/gif1.gif'
 import { Link } from 'react-router-dom'
 import DialogflowMessenger from '../DialogFlow'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const index = () => {
 
   return (
@@ -97,15 +92,15 @@ const index = () => {
           <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap- justify-center  bg-transparent   ">
 
             <div className="flex justify-center">
-              <img className="h-auto max-w-full   rounded-lg" src={CATEN8logo_onTrans} alt="" />
+              <img effect='blur' className="h-auto max-w-full   rounded-lg" src={CATEN8logo_onTrans}   alt="" />
             </div>
 
             <div className="flex justify-center">
-              <img className="h-auto max-w-full rounded-lg " src={DenteonENDingLogo_stacked_outlines_blackChrome} alt="" />
+              <img effect='blur' className="h-auto max-w-full rounded-lg " src={DenteonENDingLogo_stacked_outlines_blackChrome} alt="" />
             </div>
 
             <div className="flex justify-center">
-              <img className="h-auto max-w-full rounded-lg" src={HV_VIVAdere_CHROME} alt="" />
+              <img effect='blur' className="h-auto max-w-full rounded-lg" src={HV_VIVAdere_CHROME} alt="" />
             </div>
 
             <div className="flex justify-center">
@@ -146,15 +141,15 @@ const index = () => {
               </div>
 
               <div className="flex justify-center items-start">
-    <img className="h-auto max-w-full rounded-lg" src={SAEPiologo_stickercut} alt="" />
-</div>
+                <img className="h-auto max-w-full rounded-lg" src={SAEPiologo_stickercut} alt="" />
+              </div>
 
 
             </div>
           </div>
-            <div className="caption-area text-center bg-transparent pb-24  ">
-        <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Submerge into the HACKERverse®</Link>
-      </div>
+          <div className="caption-area text-center bg-transparent pb-24  ">
+            <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Submerge into the HACKERverse®</Link>
+          </div>
 
 
           <Quote />
@@ -188,9 +183,9 @@ const index = () => {
                 </div>
               </div>
             </section>
-                <div className="caption-area text-center bg-transparent mt-20  ">
-        <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Skull Jack the HACKERverse® </Link>
-      </div>
+            <div className="caption-area text-center bg-transparent mt-20  ">
+              <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Skull Jack the HACKERverse® </Link>
+            </div>
             {/*  */}
             {/*  */}
             <div className="col-md-12 py-10">
@@ -217,9 +212,9 @@ const index = () => {
                 </div>
               </section>
               <div className="caption-area text-center bg-transparent mt-24  ">
-        <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' >  Immerse yourself in the HACKERverse® </Link>
-      </div>
-      
+                <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' >  Immerse yourself in the HACKERverse® </Link>
+              </div>
+
               {/* <TwoButtons /> */}
               <Paragraph />
               <Testimonials />
@@ -241,7 +236,7 @@ const index = () => {
         </div>
       </section>
 
-     
+
 
     </>
   )
