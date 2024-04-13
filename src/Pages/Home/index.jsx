@@ -149,18 +149,18 @@ const index = () => {
                 <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' >  Immerse yourself in the HACKERverse® </Link>
               </div>
 
-              {/* <TwoButtons /> */}
+              <TwoButtons />
               <Paragraph />
               {/* <Testimonials /> */}
               {/* <Index /> */}
               <div className="col-md-12  ">
                 {/* <Blogs />
                 <Spotify />
-                <PodcastVideo />
+                <PodcastVideo /> */}
 
                 <Newsletter />
 
-                <Footer /> */}
+                <Footer /> 
                 {/* <DialogflowMessenger/> */}
                 <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/966f7b93-5e51-4195-86e2-96bd13ed377e"></iframe>
 
