@@ -149,14 +149,14 @@ const index = () => {
                 <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' >  Immerse yourself in the HACKERverse® </Link>
               </div>
 
-              <TwoButtons />
+              {/* <TwoButtons /> */}
               <Paragraph />
               {/* <Testimonials /> */}
               {/* <Index /> */}
               <div className="col-md-12  ">
                 {/* <Blogs />
                 <Spotify />
-                <PodcastVideo /> */}
+                <PodcastVideo />
 
                 <Newsletter />
 
@@ -170,52 +170,7 @@ const index = () => {
         </div>
       </section>
 
-      <div className="speak   "  >
-        <div className="sup-icons-cont">
-          <a href="https://discord.gg/hacer-rs-952244889192648775" target="_blank">
-            <div className="sup-icon">
-              <img src={redorbdiscord} />
-            </div>
-          </a>
-          <a href="https://www.instagram.com/_hackerverse_/" target="_blank">
-            <div className="sup-icon">
-              <img src={redorbinsta} />
-            </div>
-          </a>
-          <a href="https://www.youtube.com/@theHACKERverse" target="_blank">
-            <div className="sup-icon">
-              <img src={redorbyoutube} />
-            </div>
-          </a>
-          <a href="https://www.reddit.com/u/theHACKERverse/" target="_blank">
-            <div className="sup-icon">
-              <img src={redorbreddit} />
-            </div>
-          </a>
-          <a href="https://www.twitch.tv/thehackerverse" target="_blank">
-            <div className="sup-icon">
-              <img src={redorbtwitch} />
-            </div>
-          </a>
-          <a href="https://twitter.com/_HACKERverse_" target="_blank">
-            <div className="sup-icon">
-              <img src={orbtwitter} />
-            </div>
-          </a>
-          {/* <a href="https://www.pinterest.com/thehackerverse/" target="_blank">
-    <div class="sup-icon">
-      <img src="img/pinterest.svg">
-    </div>
-  </a>         */}
-        </div>
-        <div className="sup-rota">
-          <img src={SideChat} />
-        </div>
-        <div className="video-cutter"  >
-          <img src={orbmp4} alt="Your GIF" />
-
-        </div>
-      </div>
+     
 
     </>
   )
