@@ -154,9 +154,9 @@ const index = () => {
               {/* <Testimonials /> */}
               {/* <Index /> */}
               <div className="col-md-12  ">
-                {/* <Blogs />
+                <Blogs />
                 <Spotify />
-                <PodcastVideo /> */}
+                <PodcastVideo />
 
                 <Newsletter />
 
