@@ -118,12 +118,7 @@ const index = () => {
             <section className="text-gray-600 body-font">
               <div className="container px- py-[20px] mx-auto ">
                 <div className=" ">
-                  <img
-                    src={BLUMIRApocscreen}
-                    height="100px"
-                    width="auto"
-                    className="demo-image rounded-3xl"
-                  />
+               
                 </div>
               </div>
             </section>
@@ -146,12 +141,7 @@ const index = () => {
               <section className="text-gray-600 body-font">
                 <div className="container px- py-[20px] mx-auto ">
                   <div className=" ">
-                    <img
-                      src={HV_NEW_AI_Machine}
-                      height="100px"
-                      width="auto"
-                      className="demo-image rounded-3xl"
-                    />
+                    
                   </div>
                 </div>
               </section>
@@ -161,16 +151,16 @@ const index = () => {
 
               {/* <TwoButtons /> */}
               <Paragraph />
-              <Testimonials />
-              <Index />
+              {/* <Testimonials /> */}
+              {/* <Index /> */}
               <div className="col-md-12  ">
-                <Blogs />
+                {/* <Blogs />
                 <Spotify />
                 <PodcastVideo />
 
                 <Newsletter />
 
-                <Footer />
+                <Footer /> */}
                 {/* <DialogflowMessenger/> */}
                 <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/966f7b93-5e51-4195-86e2-96bd13ed377e"></iframe>
 
