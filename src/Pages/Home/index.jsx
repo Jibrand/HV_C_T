@@ -93,7 +93,68 @@ const index = () => {
 
 
 
-         
+          {/*  */}
+          <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap- justify-center  bg-transparent   ">
+
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full   rounded-lg" src={CATEN8logo_onTrans} alt="" />
+            </div>
+
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg " src={DenteonENDingLogo_stacked_outlines_blackChrome} alt="" />
+            </div>
+
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg" src={HV_VIVAdere_CHROME} alt="" />
+            </div>
+
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg" src={HV_PROCYON_BLUEoriginal} alt="" />
+            </div>
+
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg" src={HV_PLEXtrac_LogoWithBlackOutline} alt="" />
+            </div>
+          </div>
+          {/*    */}
+          <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-4 gap-10 justify-center -mt-6  bg-transparent   ">
+            <div className="flex justify-center ">
+              <img className="h-auto max-w-full rounded-lg" src={Anonybit} alt="" />
+            </div>
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg" src={SPYDERswooshbat_PurpleBlue_onBlackChrome} alt="" />
+            </div>
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg" src={HV_HEIMDALLdata_vikingfire_chromeOutline} alt="" />
+            </div>
+            <div className="flex justify-center">
+              <img className="h-auto max-w-full rounded-lg" src={HV_NATsec_unicorn_stickercut_blackChrome} alt="" />
+            </div>
+            {/* Add more <div> elements for each image */}
+          </div>
+
+          {/*    */}
+          <div className="flex  bg-transparent   ">
+            <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-1 justify-ter -mt-24 p-16">
+
+              <div className="  justify-center ">
+                <img className="h-auto max-w-full rounded-lg" src={HVbsideslogointro} alt="" />
+              </div>
+
+              <div className="  justify-center">
+                <img className="h-auto max-w-full  " src={DC719jack} alt="" />
+              </div>
+
+              <div className="flex justify-center items-start">
+    <img className="h-auto max-w-full rounded-lg" src={SAEPiologo_stickercut} alt="" />
+</div>
+
+
+            </div>
+          </div>
+            <div className="caption-area text-center bg-transparent pb-24  ">
+        <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Submerge into the HACKERverse®</Link>
+      </div>
 
 
           <Quote />
@@ -118,13 +179,18 @@ const index = () => {
             <section className="text-gray-600 body-font">
               <div className="container px- py-[20px] mx-auto ">
                 <div className=" ">
-               
+                  <img
+                    src={BLUMIRApocscreen}
+                    height="100px"
+                    width="auto"
+                    className="demo-image rounded-3xl"
+                  />
                 </div>
               </div>
             </section>
-            <div className="caption-area text-center bg-transparent mt-20  ">
-              <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Skull Jack the HACKERverse® </Link>
-            </div>
+                <div className="caption-area text-center bg-transparent mt-20  ">
+        <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' > Skull Jack the HACKERverse® </Link>
+      </div>
             {/*  */}
             {/*  */}
             <div className="col-md-12 py-10">
@@ -141,18 +207,23 @@ const index = () => {
               <section className="text-gray-600 body-font">
                 <div className="container px- py-[20px] mx-auto ">
                   <div className=" ">
-                    
+                    <img
+                      src={HV_NEW_AI_Machine}
+                      height="100px"
+                      width="auto"
+                      className="demo-image rounded-3xl"
+                    />
                   </div>
                 </div>
               </section>
               <div className="caption-area text-center bg-transparent mt-24  ">
-                <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' >  Immerse yourself in the HACKERverse® </Link>
-              </div>
-
+        <Link to="https://hackerverse.quest/" className="lr-more mx-auto px-3 py-[12px] rounded-md font-semibold bg-[#a0ff00] hover:text-black hover:bg-[#8cba3e] " target='_blank' >  Immerse yourself in the HACKERverse® </Link>
+      </div>
+      
               {/* <TwoButtons /> */}
               <Paragraph />
-              {/* <Testimonials /> */}
-              {/* <Index /> */}
+              <Testimonials />
+              <Index />
               <div className="col-md-12  ">
                 <Blogs />
                 <Spotify />
@@ -160,9 +231,9 @@ const index = () => {
 
                 <Newsletter />
 
-                <Footer /> 
-                {/* <DialogflowMessenger/>
-                {/* <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/966f7b93-5e51-4195-86e2-96bd13ed377e"></iframe> */}
+                <Footer />
+                {/* <DialogflowMessenger/> */}
+                <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/966f7b93-5e51-4195-86e2-96bd13ed377e"></iframe>
 
               </div>
             </div>
